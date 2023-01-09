@@ -24,6 +24,10 @@ app.post("/",function(req,res){
 
 });
 
+app.get("/createNewUser",function(req,res){
+  res.render('createNewUser');
+})
+
 app.get("/forgotPassword",function(req,res){
 res.render('forgetPassword.ejs');
 
